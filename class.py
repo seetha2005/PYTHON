@@ -7,6 +7,7 @@ class student:
     def per(self):
         self.p= sum (self.marks)//3
     def display(self):
+        self.per()
         print("1.NAME:",self.name)
         print("2.SCORE:",self.p)
         print("3.DEPT:",student.dept)
